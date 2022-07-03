@@ -40,7 +40,7 @@ body {
   margin: auto;
   margin-top: 150px;
 
-  height: 720px;
+  height: 100%;
   width: 800px;
 }
 
@@ -147,5 +147,82 @@ body {
 
   margin: auto;
   margin-left: 20px;
+
+}
+
+
+
+@media only screen and (max-width: 750px) and (min-width: 525px) {
+  .Information-Display-Box {
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+  }
+
+  .App {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 800px;
+    width: 500px;
+  }
+
+}
+
+@media only screen and (max-width: 525px) and (min-width: 420px) {
+  .Information-Display-Box {
+    grid-template-columns: 1fr;
+    height: 1200px;
+  }
+
+  .App {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1500px;
+    width: 400px;
+  }
+
+}
+
+@media only screen and (max-width: 420px) and (min-width: 360px) {
+  .Information-Display-Box {
+    grid-template-columns: 1fr;
+    height: 1200px;
+  }
+
+  .App {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1500px;
+    width: 90%;
+  }
+
+  #Weather-Info-Square {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
+
+}
+
+@media only screen and (max-width: 420px) and (min-width: 360px) {
+  #Brand {
+    font-size: 40px;
+  }
+  .Information-Display-Box {
+    grid-template-columns: 1fr;
+    height: 1200px;
+  }
+
+  .App {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 1500px;
+    width: 90%;
+  }
+
+  #Weather-Info-Square {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+  }
 
 }
